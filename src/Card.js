@@ -238,7 +238,27 @@ export default function Card() {
        {/* CARD PANELS & SHADOW  */}
       <div class="row">
         <div class="col s12 m3">
-          <div>
+          <div class="card-panel blue z-depth-2">
+            <span class="white-text"
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
+              quisquam in dolorum nobis hic. Suscipit dignissimos laboriosam id
+              nesciunt debitis exercitationem.
+            </span>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel indigo z-depth-3">
+            <span class="white-text"
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
+              quisquam in dolorum nobis hic. Suscipit dignissimos laboriosam id
+              nesciunt debitis exercitationem.
+            </span>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel cyan z-depth-4">
             <span
               >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
               magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
@@ -248,27 +268,7 @@ export default function Card() {
           </div>
         </div>
         <div class="col s12 m3">
-          <div>
-            <span
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-              magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
-              quisquam in dolorum nobis hic. Suscipit dignissimos laboriosam id
-              nesciunt debitis exercitationem.
-            </span>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div>
-            <span
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-              magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
-              quisquam in dolorum nobis hic. Suscipit dignissimos laboriosam id
-              nesciunt debitis exercitationem.
-            </span>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div>
+          <div class="card-panel amber">
             <span
               >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
               magni aut mollitia quis? Ab voluptate quaerat libero voluptatibus
