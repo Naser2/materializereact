@@ -104,11 +104,11 @@ export default function Card() {
             <div class="card-content" >
               <span class="card-title activator ">Card Reveal <i class="material-icons "> more_vert</i> </span>
               <p>
-                 add activator to anything 
-                <a href="#!" class="activator">Read More</a>
+                 {/* add activator to anything  */}
+                <a href="#!" class=" activator">Read More</a>
               </p>
             </div>
-             inside of reveal 
+             {/* inside of reveal  */}
             <div class="card-reveal">
               <span class="card-title">Card Title <i class="material-icons">close</i> </span>
               <p>
@@ -125,9 +125,9 @@ export default function Card() {
       <div class="row">
         <div class="col s12 m6">
            {/* TABBED CARD  */}
-          <div>
-            <div>
-              <span>Tabbed Card</span>
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Tabbed Card</span>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
                 rem obcaecati. Recusandae laborum, odit commodi fuga dolores
@@ -135,26 +135,27 @@ export default function Card() {
                 omnis voluptas sunt delectus ab?
               </p>
             </div>
-            <div>
-              <ul>
-                <li><a href="#tab1">Tab 1</a></li>
-                <li><a href="#tab2">Tab 2</a></li>
-                <li><a href="#tab3">Tab 3</a></li>
+            <div class="card-tabs">
+              <ul class="tabs tabs-width-fixed ">
+                <li class="tab blue   waves-white"><a href="#tab1">Tab 1</a></li>
+
+                <li class="tab yellow text-white"><a href="#tab2">Tab 2</a></li>
+                <li class="tab yellow"><a href="#tab3">Tab 3</a></li>
               </ul>
             </div>
-            <div>
-              <div>This is the content for tab 1</div>
-              <div>This is the content for tab 2</div>
-              <div>This is the content for tab 3</div>
+            <div class="card-content">
+              <div id="tab1" class="purple-text">This is the content for tab 1</div>
+              <div id="tab2" class="blue-text" >This is the content for tab 2</div>
+              <div id="tab3" class="pink-text">This is the content for tab 3</div>
             </div>
           </div>
         </div>
 
         <div class="col s12 m6">
            {/* TABBED CARD COLORED  */}
-          <div>
-            <div>
-              <span>Tabbed Card</span>
+           <div class="card orange darken white-text">
+            <div class="card-content">
+              <span class="card-title">Tabbed Card</span>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
                 rem obcaecati. Recusandae laborum, odit commodi fuga dolores
@@ -162,18 +163,18 @@ export default function Card() {
                 omnis voluptas sunt delectus ab?
               </p>
             </div>
-            <div>
-               make tabs transparent 
-              <ul>
-                <li><a href="#tab4">Tab 1</a></li>
-                <li><a href="#tab5">Tab 2</a></li>
-                <li><a href="#tab6">Tab 3</a></li>
+            <div class="card-tabs">
+              <ul class="tabs tabs-width-fixed tabs-transparent">
+                <li class="tab  "><a href="#tab1">Tab 1</a></li>
+
+                <li class="tab "><a href="#tab2">Tab 2</a></li>
+                <li class="tab "><a href="#tab3">Tab 3</a></li>
               </ul>
             </div>
-            <div>
-              <div>This is the content for tab 1</div>
-              <div>This is the content for tab 2</div>
-              <div>This is the content for tab 3</div>
+            <div class="card-content black lighten-4">
+              <div id="tab1" class="purple-text">This is the content for tab 1</div>
+              <div id="tab2" class="blue-text" >This is the content for tab 2</div>
+              <div id="tab3" class="pink-text">This is the content for tab 3</div>
             </div>
           </div>
         </div>
@@ -182,45 +183,54 @@ export default function Card() {
        {/* CARD SIZES  */}
       <div class="row">
         <div class="col s12 m4">
-           {/* SMALL  */}
-          <div>
-            <div><img src="" alt=""/> <span>Card Image</span></div>
-            <div>
+        <div class="card small">
+            <div class="card-image">
+              <img src="/img/img5.jpg" alt="" />
+              <span class="card-title yellow-text ">Card Image</span>
+            </div>
+            <div class="card-content">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 harum enim inventore ullam expedita nesciunt ea voluptatem
                 corporis iusto sint?
               </p>
             </div>
-            <div><a href="something">Read More</a></div>
+            <div class="card-action"><a href="something">Read More</a></div>
           </div>
         </div>
         <div class="col s12 m4">
            {/* MEDIUM  */}
-          <div>
-            <div><img src="" alt="" /> <span>Card Image</span></div>
-            <div>
+           <div class="card medium">
+            <div class="card-image">
+              <img src="/img/img6.jpg" alt="" />
+              <span class="card-title yellow-text ">Card Image</span>
+            </div>
+            <div class="card-content" >
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 harum enim inventore ullam expedita nesciunt ea voluptatem
                 corporis iusto sint?
               </p>
             </div>
-            <div><a href="something">Read More</a></div>
+            <div class="card-action"><a href="something">Read More</a></div>
           </div>
         </div>
+
         <div class="col s12 m4">
            {/* LARGE  */}
-          <div>
-            <div><img src="" alt="" /> <span>Card Image</span></div>
-            <div>
+         <div class="card large">
+            <div class="card-image">
+              <img src="/img/img7.jpg" alt="" />
+              <span class="card-title yellow-text ">Card Image</span>
+            </div>
+            <div class="card-content">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 harum enim inventore ullam expedita nesciunt ea voluptatem
                 corporis iusto sint?
               </p>
             </div>
-            <div><a href="#">Read More</a></div>
+            <div class="card-action"><a href="something">Read More</a></div>
           </div>
         </div>
       </div>
