@@ -96,21 +96,21 @@ export default function Card() {
             </div>
           </div>
         </div>
-        
+
         <div class="col s12 m6">
            {/* CARD REVEAL  */}
-          <div>
-            <div><img src="" /></div>
-            <div>
-              <span>Card Reveal <i></i> </span>
+          <div class="card">
+            <div class="card-image waves-effect waves-light waves-block"><img class="activator" src="img/img4.jpg" alt=""/></div>
+            <div class="card-content" >
+              <span class="card-title activator ">Card Reveal <i class="material-icons "> more_vert</i> </span>
               <p>
                  add activator to anything 
-                <a href="#!">Read More</a>
+                <a href="#!" class="activator">Read More</a>
               </p>
             </div>
              inside of reveal 
-            <div>
-              <span>Card Title <i></i> </span>
+            <div class="card-reveal">
+              <span class="card-title">Card Title <i class="material-icons">close</i> </span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ad
                 repudiandae sequi at quis assumenda iusto dolor in, maxime earum
